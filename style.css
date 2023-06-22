@@ -790,21 +790,6 @@ span {
         flex-direction: column;
     }
 
-    .home-sci {
-        width: 160px;
-    }
-
-    .home-sci a {
-        width: 38px;
-        height: 38px;
-    }
-}
-
-@media (max-width: 462px) {
-    .home-content h1 {
-        font-size: 5.2rem;
-    }
-
     .home {
         justify-content: center;
     }
@@ -818,6 +803,21 @@ span {
 
     .home-content h1 {
         font-size: 5rem;
+    }
+
+    .home-sci {
+        width: 160px;
+    }
+
+    .home-sci a {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media (max-width: 462px) {
+    .home-content h1 {
+        font-size: 5.2rem;
     }
 
     .education {
@@ -837,7 +837,7 @@ span {
     }
 }
 
-@media (max-width: 371px) {
+/* @media (max-width: 371px) {
     .home {
         justify-content: center;
     }
@@ -852,7 +852,7 @@ span {
     .home-content h1 {
         font-size: 5rem;
     }
-}
+} */
 
 /* KEYFRAME ANIMATIONS */
 
