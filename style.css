@@ -19,6 +19,27 @@
     --main-color: #00abf0;
 }
 
+.custom-shape-divider-bottom-1687619522 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1687619522 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 194px;
+}
+
+.custom-shape-divider-bottom-1687619522 .shape-fill {
+    fill: #1D6886;
+}
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -301,6 +322,7 @@ specs later */
 }
 
 .about {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,6 +332,7 @@ specs later */
     padding-bottom: 6rem;
 
 }
+
 
 .heading {
     font-size: 5rem;
