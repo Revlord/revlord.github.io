@@ -4,9 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-
-
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     text-decoration: none;
     border: none;
@@ -304,8 +302,8 @@ specs later */
 }
 
 ::selection {
-    background-color: #00abf0;
-    color: #081b29;
+    background-color: black;
+    color: green;
 }
 
 .home-imgHover{
